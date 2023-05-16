@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.btn-blue {
+		@apply flex flex-row justify-between gap-2 sm:my-6;
+	}
+
+	.job-btn {
+		@apply border  border-primary hover:bg-primary hover:text-white sm:px-6 md:px-0;
+	}
+
+	.active-btn {
+		@apply bg-primary text-white;
+	}
+
+	.active-company-title {
+		@apply text-primary font-bold;
+	}
+	.title {
+		@apply text-accent;
+	}
+}
